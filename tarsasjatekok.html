@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" href="favicon.png">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Társasjáték</title>
+</head>
+
+<body>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <header>
+        <br>
+
+        <form class="d-flex">
+            <input class="form-control ms-2 me-2 w-25" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success me-2" type="submit">Search</button>
+            <button class="btn btn-outline-success me-2 position-relative top-0 start-50" type="button">Belépés</button>
+        </form>
+
+
+    </header>
+    <br>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+
+            <a class="navbar-brand" href="#">Menü</a>
+            <div class="position-absolute top-0 start-100 translate-middle"></div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page"
+                            href="#news">Játék hírek</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="boardgames.html">Társasjátékok</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Tagoknak
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#toplist">Toplista</a></li>
+                            <li><a class="dropdown-item" href="#ad">Apróhirdetések</a></li>
+                            <li><a class="dropdown-item" href="#exchange">Játékok cseréje</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#reg">Regisztráció</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Kapcsolat</a>
+                    </li>
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+    <!-- Játék hírek .container kezdete -->
+    <div class="container">
+        <h1 class="text-center p-5">Társasjáték hírek</h1>
+        <article>
+            <h2 class="text-center p5 bg-light">JátsszMa! társasjáték kiállítás és vásár</h2>
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                        aria-label="Slide 4"></button>
+
+                </div>
+                <div class="carousel-inner">
+
+                    <div class="carousel-item active">
+                        <img src="pics/04.jpg" class="d-block w-100" alt="01">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="pics/02.jpg" class="d-block w-100" alt="02">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="pics/03.jpg" class="d-block w-100" alt="03">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="pics/06.jpg" class="d-block w-100" alt="06-ki">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Előző</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Következő</span>
+                </button>
+            </div>
+
+            <br>
+            <p>2023. március 25-26-án megrendezésre került a XII. JátsszMa Pécsi Társasjáték Kiállítás és Vásár a pécsi
+                kultúrális központban.
+                Az eseményen készült további képek elérhetőek az esemény <a
+                    href="https://www.facebook.com/tarsasjatekkiallitas/?locale=hu_HU" target="_blank">weboldalán</a>.
+            </p>
+        </article>
+
+        <article>
+            <h2 class="text-center p-5 bg-light ">Társas- és Szerepjátékos Tábor 2023</h2>
+            <div class="text-justify">
+                <h3>Mi ez a tábor?</h3>
+                <p>A Társas- és Szerepjátékos Tábor egy olyan esemény, mely egész hetes kikapcsolódást nyújt
+                    mindazoknak,
+                    akik szeretnek társasjátékozni, nyitottak a szerepjátékok világa iránt és szívesen ismerkednének új
+                    emberekkel.
+                </p>
+                <h3>Milyen programok lesznek?</h3>
+                <p>
+                    A tábor minden egyes programja fakultatív jellegű, azonban rengeteg szórakozási lehetőséggel
+                    készültünk.
+                    Minden napra lesz egy-egy nagyobb volumenű foglalkozás, illetve több kisebb, és természetesen
+                    bármikor
+                    lehet társasozni és szerepjátékozni.
+                    A részletekkel hétről-hétre jelentkezünk Facebook-poszt formájában!
+                </p>
+                <h3>Hol és mikor?</h3>
+                <p>
+                    2023 augusztus 7-13-ig, Somogydöröcskén, ami egy csendes kis zsákfalu a természet közelében. A
+                    helyszínen
+                    többágyas tábori szobákban történik az elszállásolás. A szobákat előzetes megbeszélés alapján
+                    osztjuk be.
+                    Ezen felül foglalkoztató termek, ebédlő, tűzrakóhely, árnyékos udvar, strandröplabdapálya és több
+                    vizesblokk
+                    áll rendelkezésre. A bejáratnál parkolási lehetőség van.
+                    A pontos cím: Somogydöröcske Ifjúsági Tábor, 7284 Somogydöröcske, Nyugati út 165.
+                </p>
+                <h3>Mit fogunk enni?</h3>
+                <p>
+                    Minden nap háromszori étkezést kapunk, mely kiadós, finom és főként helyi alapanyagokból készül
+                    frissen a
+                    tábor konyhájában. A hideg reggelit meleg ebéd és vacsora követi, illetve esténként nassolási
+                    lehetőség van
+                    (gyümölcs vagy zsíroskenyér teával).
+                    Ezen felül, igény esetén, minden nap elmegy egy szervező a közeli városba bevásárló körútra.
+                </p>
+                <h3>Mennyibe fog ez kerülni?</h3>
+                <p>Az egész hetes tábor díja 90.000 Forint, mely 6 éjszakát és hétfői vacsorától vasárnapi ebédig tartó
+                    ellátást foglal magába. Ha nem tudnál egész héten részt venni, lehetőséged van napi díjon eljönnöd,
+                    mely 3
+                    étkezést és egy éjszakát tartalmaz és 15.000 Forintba kerül.
+                    A tábori díjat három részletben is tudod fizetni.
+                    A jelentkezésed a díj első harmadának (30.000 Ft) befizetésével véglegesíted, melyről e-mailben
+                    értesítünk.
+                    További 30.000 Forintot kérünk legkésőbb július 31-ig elutalni.
+                    Az utolsó harmadot ráérsz a helyszínen is rendezni.
+                    Természetesen, ha egyben szeretnél utalni, arra is lehetőséged van.
+                </p>
+                <p>
+                    Jelentkezni az <a href="https://forms.gle/SzoGJUF1mYW3kVPb9">űrlap</a> kitöltésével tudsz.
+
+                </p>
+            </div>
+        </article>
+    </div>
+
+    <!-- .container vége -->
+
+    <footer>
+
+        <div class="bg-dark text-white cookie-alert   cookie_alert_2" id="cookie_alert">
+            <div class="cookie-alert__inner bg-1 p-4 border-top" id="cookie_alert_open">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 col-lg-8 col-xl-9 mb-2 mb-md-0">
+                            <div class="cookie-alert__title font-weight-bold">Cookie beállítások</div>
+                            <div class="cookie-alert__text font-s text-justify">A sütik igyekeznek minél kényelmesebbé
+                                tenni a böngészésedet. A gombra kattintva elfogadhatod a használatukat, a feliratra
+                                kattintva pedig beállíthatod, hogy milyen sütiket szeretnél engedélyezni. <a
+                                    href="adatkezelesi.pdf" target="_blank" class="text_normal"><b>Adatkezelési
+                                        tájékoztató</b></a>ban megtalálod hogyan vigyázunk adataidra! </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 col-xl-3">
+                            <div class="cookie-alert__checkboxes form-group">
+                                <div class="custom-control custom-checkbox">
+                                    <input class="custom-control-input" type='checkbox'
+                                        id='cookie_alert_checkbox_working' checked='checked' disabled='disabled' />
+                                    <label for="cookie_alert_checkbox_working"
+                                        class="custom-control-label my-1">Működéshez szükséges cookie-k</label>
+                                </div>
+                                <div class="custom-control custom-checkbox">
+                                    <input class="custom-control-input" type='checkbox' id='cookie_alert_checkbox_plus'
+                                        checked="checked" value='1' />
+                                    <label for="cookie_alert_checkbox_plus" class="custom-control-label my-1">Marketing
+                                        cookie-k</label>
+                                </div>
+                            </div>
+                            <div class="cookie-alert__btn-set-wrap text-center text-md-left">
+                                <button class='cookie-alert__btn-set btn btn-sm btn-primary' type='button'
+                                    onclick='cookie_alert_action(1,(($("#cookie_alert_checkbox_plus").prop("checked")==true)?1:0));'>Elfogadom</button>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <p style="text-align: center; font-style: italic;">Copyright 2023 Kerekes Judit Hungary</p>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+
+
+        </div>
+    </footer>
+</body>
+
+</html>
+
+
+
+<!-- 
+tagság-kezelés, belépés, játék-hírek, toplista, apróhirdetések, valamilyen
+felület a játékok cseréjére, a láblécben pedig az oldal készítője és üzemeltetője elérhetőségei,
+valamint a viselkedési és adatvédelmi szabályok elérhetősége. -->
