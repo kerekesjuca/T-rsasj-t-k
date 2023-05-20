@@ -1,2 +1,2 @@
-# Projektek
-JFF tanfolyam gyakorlati projektjei
+# Társasjáték
+A weboldal társasjátékok témájában készült.
